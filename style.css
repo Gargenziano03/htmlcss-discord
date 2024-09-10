@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+} 
+
+img {
+    max-width: 100%;
+}
+
+
+/*debug*/
+#debug *{
+    border: 1px dashed;
+}
+
+#debug .logo, #debug .h_main, #debug .login{
+    background-color: yellow;
+ }
+
+#debug .main_1{
+    height: 300px;
+    background-color: aqua;
+}
+
+#debug .main_2{
+    height: 150px;
+    background-color: aqua;
+}
+
+#debug .main_3{
+    height: 150px;
+    background-color: pink;
+}
+#debug [class^="col-"] {
+    height: 300px;
+    background-color: plum;
+}
+
+/*color*/
+.bg-grey{
+    background-color: gray;}
+
+.bg-black{
+    background-color: black;
+}
+
+/*comun*/
+.container {
+    width: 80%;
+    margin: auto;
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.container_sm {
+    width: 70%;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+
+/* region header*/
+header{
+    padding: 1rem 0;
+    background-image: url(./img/jumbo.png);
+    color: white;
+   
+.logo{
+    width: 25%;
+   
+}
+.h_main{
+    width: 50%;
+    text-align: center;
+    
+
+}
+.login{
+    width: 7%;
+    font-size: 1rem;
+    display: inline-block;
+    border: transparent;
+    height: 2rem;
+    text-align: center;
+    line-height: 1rem;
+    border-radius: 37%
+}
+
+
+}
+
+.py-4{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.sfondo_img{
+    background-image: url(./img/jumbo.png);
+    background-size: cover}
+.main_1{
+    color: white;
+    text-align: center;}
+
+
+.main_2{
+    width: 60%;}
+
+.main_3{
+    width: 40%;}
+
+/*item*/
+.item_1 {
+    
+
+}
+
+    .col-1 {
+        width: calc((100% / 12) * 1);
+    }
+    
+    .col-2 {
+        width: calc((100% / 12) * 2);
+    }
+    
+    .col-4 {
+        width: calc((100% / 12) * 4);
+    }
+    
+    .col-6 {
+        width: 50%;
+    }
+    
+    .col-12 {
+        width: 100%;
+    }
+
+    hr.divider {
+        border-bottom: 2px solid rgb(255, 255, 255) !important;
+    }
+
+    footer {
+        .bottom {
+            padding: 1rem 0;
+            color: rgb(255, 255, 255);
+        }
+    }
+
+
+
+
